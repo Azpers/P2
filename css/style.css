@@ -136,8 +136,12 @@ footer li {
         }
         #profilepic {
             width: 33vw;
-            float: right;
+            /* float: right; */
             margin: 0 auto 0 .7rem;
+        }
+        header div {
+            display: flex;
+            flex-direction: row-reverse;
         }
         header nav ul {
             margin-bottom: 6vh;
